@@ -212,63 +212,83 @@ def scorekeeper():
         PlayerO.set(score)
         tkinter.messagebox.showinfo("Winner O","PLAYER O WON A GAME")
         Reset()
-    if(button1['text']=="X" and button2['text']=="X" and button3['text'] =="O" and
+   if(button1['text']=="X" and button2['text']=="X" and button3['text'] =="O" and
        button4['text']=="O" and button5['text']=="O" and button6['text'] =="X" and
        button7['text']=="X" and button8['text']=="O" and button9['text'] =="X"):
-        tkinter.messagebox.showinfo("TIE","GAME DRAW PLAY AGAIN")
+        tkinter.messagebox.showinfo("TIE")
     if(button1['text']=="O" and button2['text']=="X" and button3['text'] =="X" and
        button4['text']=="X" and button5['text']=="O" and button6['text'] =="O" and
        button7['text']=="O" and button8['text']=="O" and button9['text'] =="X"):
-        tkinter.messagebox.showinfo("TIE","GAME DRAW PLAY AGAIN")
+        tkinter.messagebox.showinfo("TIE")
     if(button1['text']=="O" and button2['text']=="O" and button3['text'] =="X" and
        button4['text']=="X" and button5['text']=="X" and button6['text'] =="O" and
        button7['text']=="O" and button8['text']=="O" and button9['text'] =="X"):
-        tkinter.messagebox.showinfo("TIE","GAME DRAW PLAY AGAIN")
+        tkinter.messagebox.showinfo("TIE")
     if(button1['text']=="O" and button2['text']=="X" and button3['text'] =="O" and
        button4['text']=="X" and button5['text']=="O" and button6['text'] =="O" and
        button7['text']=="O" and button8['text']=="O" and button9['text'] =="X"):
-        tkinter.messagebox.showinfo("TIE","GAME DRAW PLAY AGAIN")
+        tkinter.messagebox.showinfo("TIE")
     if(button1['text']=="X" and button2['text']=="O" and button3['text'] =="O" and
        button4['text']=="O" and button5['text']=="X" and button6['text'] =="X" and
        button7['text']=="O" and button8['text']=="X" and button9['text'] =="O"):
-        tkinter.messagebox.showinfo("TIE","GAME DRAW PLAY AGAIN")
+        tkinter.messagebox.showinfo("TIE")
     if(button1['text']=="O" and button2['text']=="X" and button3['text'] =="X" and
        button4['text']=="X" and button5['text']=="O" and button6['text'] =="O" and
        button7['text']=="O" and button8['text']=="O" and button9['text'] =="X"):
-        tkinter.messagebox.showinfo("TIE","GAME DRAW PLAY AGAIN")
+        tkinter.messagebox.showinfo("TIE")
     if(button1['text']=="X" and button2['text']=="O" and button3['text'] =="X" and
        button4['text']=="O" and button5['text']=="X" and button6['text'] =="X" and
        button7['text']=="X" and button8['text']=="X" and button9['text'] =="O"):
-        tkinter.messagebox.showinfo("TIE","GAME DRAW PLAY AGAIN")
+        tkinter.messagebox.showinfo("TIE")
     if(button1['text']=="X" and button2['text']=="O" and button3['text'] =="O" and
        button4['text']=="O" and button5['text']=="X" and button6['text'] =="X" and
        button7['text']=="X" and button8['text']=="X" and button9['text'] =="O"):
-        tkinter.messagebox.showinfo("TIE","GAME DRAW PLAY AGAIN")
+        tkinter.messagebox.showinfo("TIE")
     if(button1['text']=="X" and button2['text']=="O" and button3['text'] =="X" and
        button4['text']=="O" and button5['text']=="X" and button6['text'] =="X" and
        button7['text']=="X" and button8['text']=="X" and button9['text'] =="O"):
-        tkinter.messagebox.showinfo("TIE","GAME DRAW PLAY AGAIN")
+        tkinter.messagebox.showinfo("TIE")
     if(button1['text']=="O" and button2['text']=="X" and button3['text'] =="X" and
        button4['text']=="X" and button5['text']=="O" and button6['text'] =="O" and
        button7['text']=="X" and button8['text']=="O" and button9['text'] =="X"):
-        tkinter.messagebox.showinfo("TIE","GAME DRAW PLAY AGAIN")
+        tkinter.messagebox.showinfo("TIE")
     if(button1['text']=="O" and button2['text']=="X" and button3['text'] =="O" and
        button4['text']=="X" and button5['text']=="O" and button6['text'] =="O" and
        button7['text']=="X" and button8['text']=="O" and button9['text'] =="X"):
-        tkinter.messagebox.showinfo("TIE","GAME DRAW PLAY AGAIN")
+        tkinter.messagebox.showinfo("TIE")
     if(button1['text']=="O" and button2['text']=="X" and button3['text'] =="O" and
        button4['text']=="X" and button5['text']=="X" and button6['text'] =="O" and
        button7['text']=="O" and button8['text']=="O" and button9['text'] =="X"):
-        tkinter.messagebox.showinfo("TIE","GAME DRAW PLAY AGAIN")   
+        tkinter.messagebox.showinfo("TIE")
+   
     if(button1['text']=="O" and button2['text']=="X" and button3['text'] =="X" and
        button4['text']=="X" and button5['text']=="O" and button6['text'] =="O" and
        button7['text']=="O" and button8['text']=="X" and button9['text'] =="X"):
-        tkinter.messagebox.showinfo("TIE","GAME DRAW PLAY AGAIN")
+        tkinter.messagebox.showinfo("TIE")
     if(button1['text']=="O" and button2['text']=="O" and button3['text'] =="X" and
        button4['text']=="X" and button5['text']=="X" and button6['text'] =="O" and
        button7['text']=="O" and button8['text']=="X" and button9['text'] =="X"):
-        tkinter.messagebox.showinfo("TIE","GAME DRAW PLAY AGAIN")
-   
+        tkinter.messagebox.showinfo("TIE")
+    if(button1['text']=="X" and button2['text']=="O" and button3['text'] =="X" and
+       button4['text']=="X" and button5['text']=="O" and button6['text'] =="O" and
+       button7['text']=="X" and button8['text']=="X" and button9['text'] =="O"):
+        tkinter.messagebox.showinfo("TIE")
+    if(button1['text']=="O" and button2['text']=="X" and button3['text'] =="O" and
+       button4['text']=="O" and button5['text']=="X" and button6['text'] =="O" and
+       button7['text']=="X" and button8['text']=="O" and button9['text'] =="X"):
+        tkinter.messagebox.showinfo("TIE")
+    if(button1['text']=="O" and button2['text']=="X" and button3['text'] =="O" and
+       button4['text']=="O" and button5['text']=="X" and button6['text'] =="X" and
+       button7['text']=="X" and button8['text']=="O" and button9['text'] =="O"):
+        tkinter.messagebox.showinfo("TIE")
+    if(button1['text']=="O" and button2['text']=="O" and button3['text'] =="X" and
+       button4['text']=="X" and button5['text']=="X" and button6['text'] =="O" and
+       button7['text']=="O" and button8['text']=="X" and button9['text'] =="O"):
+        tkinter.messagebox.showinfo("TIE")
+    if(button1['text']=="X" and button2['text']=="O" and button3['text'] =="X" and
+       button4['text']=="X" and button5['text']=="O" and button6['text'] =="X" and
+       button7['text']=="O" and button8['text']=="X" and button9['text'] =="O"):
+        tkinter.messagebox.showinfo("TIE")
         
                    
 def Reset():
