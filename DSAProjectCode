@@ -155,7 +155,7 @@ def scorekeeper():
         
     if(button7['text']=="O" and button8['text']=="O" and button9['text'] =="O"):
         button7.configure(background ="Green")
-        button8configure(background ="Green")
+        button8.configure(background ="Green")
         button9.configure(background ="Green")
         n = float(PlayerO.get())
         score = (n + 1)
